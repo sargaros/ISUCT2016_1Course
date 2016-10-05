@@ -1,2 +1,1 @@
-# ISUCT2016_1Course
-Repository for students of group 1-47 2016
+# Ipatov Maxim Alexandrovich ISUCT 1-47 2016
