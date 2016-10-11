@@ -1,6 +1,7 @@
 public class Demo {
-    public static void main(String[] args) {
-        System.out.println("Maxim Ipatov");
+    public static void main (String[] args){
+	System.out.println("Ipatov Maxim");    
     }
 }
+
 

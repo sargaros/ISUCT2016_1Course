@@ -1,1 +1,1 @@
-# Ипатов Максим Александрович (ИГХТУ 2016 1-47)
+# Ipatov Maxim Alexandrovich ISUCT 1-47 2016
