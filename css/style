@@ -1,0 +1,21 @@
+.block1 {float:left; clear:right;padding:50px;
+width:1000px;
+height;
+margin:20px;
+border-style:double;
+border-width:4px;
+}
+.block2 {float:right;
+clear left;}
+.block3  {float:center;clear:both;
+padding:50px;
+color:red;
+font-family:Arial;
+font-size:24px;
+}
+.block3 h1 {text-align:center;}
+.block3 table {color:green;
+border-color:red;
+border : 1px solid black}
+.block4 {float:right;
+font-size:10px;}
