@@ -1,0 +1,11 @@
+*{font-family: arial;}
+.two{float:right;
+    margin: auto;}
+.one {font-size: 30px;
+background-color:#FFFAF0;height:300px;}
+.three{font-size: 30px;
+clear: both;
+background-color: #0000CD;}
+.four{background-color:red;
+text-align:center;}
+footer{text-align:right;}
