@@ -1,0 +1,138 @@
+body {
+	font-family: sans-serif; 
+}
+
+
+p {
+	font-size: 1.2em;
+	line-height: 1.4;
+}
+
+
+h1, h2 {
+	font-weight: normal;
+	font-family: "Linux Libertine",Georgia,Times,serif;
+	line-height: 1.1;
+ 	margin-bottom: 0.50em;
+	border-bottom: 1px solid #aaaaaa;	
+}
+
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0b0080;
+}
+
+a {
+	text-decoration: none;
+    color: #0645ad;
+}
+
+
+.block0 {
+	background-color: #FAFAF9;
+}
+
+
+.block1 {
+	border: 1px solid black;
+	min-height: 430px;
+	padding: 4em;
+	background-color: white;
+	margin: 0 0 1em 0;
+}
+
+.block1 h1 {
+	font-size: 2.4em;
+}
+
+.block1 h1 {
+	font-size: 2.0em;
+}
+
+.block1 h2 {
+    display: inline-block;
+}
+
+
+.block2 {
+	border: 1px solid black;
+	float: right;
+	width: 540px;
+	height: 364px;
+	background-color: #FAFAF9;
+	margin: 1em 0 0 4em;
+}
+
+.block2 h3 {
+	text-align: center;
+	color: black;
+	font-size: 1.25em;
+}
+
+.block2 img {
+	padding: 20px 20px 0 20px
+}
+
+.block2 a {
+	text-decoration: none;
+}
+
+
+.block3 {
+	border: 1px solid black;
+	min-height: 250px;
+	padding: 2em;
+	background-color: white;
+	margin: 0 0 1em 0;
+
+}
+
+.block3 p {
+	padding: 0 0 2em 0;
+	text-align: center;
+	font-size: 1.5em;
+	color: black;
+}
+
+
+table {
+	border: 1px black solid;
+	border-collapse: collapse;
+	margin: 0 auto 2em auto;
+	width: 70%;
+	background-color: #FAFAF9;
+}
+
+td {
+    border: 2px black solid;
+	padding: 1em 2em;
+}
+
+th {
+    border: 2px black solid;
+    font-weight: bold;
+	padding: 1em 2em;
+}
+
+
+footer {
+	border: 1px black solid;
+	min-height: 25px;
+	padding: 1.2em;
+	background-color: white;
+}
+
+footer i {
+	float: right;
+	padding-right: 3em;
+}
+
+footer b {
+	float: left;
+	padding-left: 3em;
+}
