@@ -9,7 +9,7 @@ public class Demo {
         phones[1] = new Phone();
         phones[1].brand = "apple";
         phones[2] = new Phone();
-        phones[2].brand = "LG";
+        phones[2].brand = "LKG";
 
 //        for (int i=5; i<5; i++)
 //    PhoneNames[i] = "";
