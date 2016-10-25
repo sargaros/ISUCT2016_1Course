@@ -3,10 +3,35 @@ public class Demo {
         Car c = new Car();
         c.brand = "Volkswagen";
         c.model = "Golf VII";
-        c.horsepower = 120;
+        c.horsepower = 170;
         c.Starter();
         c.CheckOil();
         c.CheckPressure();
+
+
+        Car[] cars;
+        cars = new Car[3];
+        cars[0] = new Car();
+        cars[0].brand = "Volkswagen";
+        cars[0].model = "Golf I";
+        cars[0].horsepower = 70;
+        cars[0].Starter();
+        cars[0].CheckOil();
+        cars[0].CheckPressure();
+        cars[1] = new Car();
+        cars[1].brand = "Volkswagen";
+        cars[1].model = "Golf II";
+        cars[1].horsepower = 80;
+        cars[1].Starter();
+        cars[1].CheckOil();
+        cars[1].CheckPressure();
+        cars[2] = new Car();
+        cars[2].brand = "Volkswagen";
+        cars[2].model = "Golf III";
+        cars[2].horsepower = 90;
+        cars[2].Starter();
+        cars[2].CheckOil();
+        cars[2].CheckPressure();
     }
 }
 
