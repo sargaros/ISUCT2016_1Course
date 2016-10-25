@@ -8,7 +8,7 @@ public class Demo {
         TVs[0].takeNumber();
         TVs[1].brand = "Samsung";
         TVs[2] = new TVs();
-        TVs[2].brand = "HTC"
+        TVs[2].brand = "HTkC"
 
                 (int a=0; i<5; i++)
             TVnames[i] = ""
