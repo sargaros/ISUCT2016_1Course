@@ -15,6 +15,5 @@ public class Cat {
     }
 
     void V() {
-        System.out.print(Age);
-    }
+        System.out.println(Age);}
 }
