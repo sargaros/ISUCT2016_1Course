@@ -3,7 +3,7 @@
  */
 public class Computerr {
 
-    public static void main(String[] args) {
+    public static void main(String[] args() {
         Computer com = new Computer();
         com.brand = "HDD";
         com.model = "6200";
