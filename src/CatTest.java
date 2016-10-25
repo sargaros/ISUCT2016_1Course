@@ -10,7 +10,17 @@ public class CatTest {
         c.name = "los";
         c.color = "black";
         c.V();
+        Cat[] catMassive;
+        catMassive = new Cat[3];
+        catMassive[0] = new Cat();
+        catMassive[1] = new Cat();
+        catMassive[2] = new Cat();
+        catMassive[0].Age =c.Age;
+        catMassive[1].Age =3;
+        catMassive[2].Age =4;
 
-
+        System.out.println(catMassive[1].Age);
     }
+
+
 }
