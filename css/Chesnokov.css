@@ -1,0 +1,16 @@
+body {
+	background: grey;
+	color: red;
+	
+}
+footer {
+	border: 1px black solid;
+	color: yellow;
+}
+img {
+	float: right;
+	padding: 0 0 0 800px;
+}
+p {
+	color: blue;
+}
