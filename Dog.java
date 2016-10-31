@@ -11,6 +11,6 @@ public class Dog {
         System.out.println("Bezhit");
     }
     void getInformation(){
-        System.out.printn(age);
+        System.out.println(age);
     }
 }
