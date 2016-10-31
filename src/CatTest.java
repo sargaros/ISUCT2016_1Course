@@ -6,20 +6,20 @@ import sun.security.action.LoadLibraryAction;
 public class CatTest {
     public static void main(String[] args) {
         Cat c = new Cat();
-        c.Age = 5;
-        c.name = "los";
-        c.color = "black";
+        c.setAge(5);
+        c.setName("los");
+        c.setName("black");
         c.V();
         Cat[] catMassive;
         catMassive = new Cat[3];
         catMassive[0] = new Cat();
         catMassive[1] = new Cat();
         catMassive[2] = new Cat();
-        catMassive[0].Age =c.Age;
-        catMassive[1].Age =3;
-        catMassive[2].Age =4;
+        catMassive[0].setAge(1);
+        catMassive[1].setAge(2);
+        catMassive[2].setAge(4);
 
-        System.out.println(catMassive[1].Age);
+        for (int x=0; x<3; x=x+1 ) {System.out.println(catMassive[x].getAge());}
     }
 
 
