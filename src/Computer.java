@@ -2,9 +2,33 @@
  * Created by stud_6 on 17.10.16.
  */
 public class Computer {
-    String brand;
-    String model;
-    int volume;
+    public int getVolume() {
+        return volume;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
+    }
+
+    private String brand;
+   private String model;
+   private int volume;
 
     void volume() {
         System.out.println(volume);

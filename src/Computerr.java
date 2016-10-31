@@ -5,18 +5,18 @@ public class Computerr {
 
     public static void main(String[] args) {
         Computer com = new Computer();
-        com.brand = "HDD";
-        com.model = "6200";
-        com.volume = 100000;
+        com.setBrand("HDD");
+        com.setModel("6200");
+        com.setVolume (100000);
         Computer[] mainchick ;
         mainchick = new Computer[2];
         mainchick[0]=new Computer();
         mainchick[1]=new Computer();
-        mainchick[0].volume=6200;
-        mainchick[1].volume=6300;
-    System.out.println(mainchick[1].volume);
+        mainchick[0].setVolume(6200);
+        mainchick[1].setVolume(6300);
+        for (int x=0; x<2; x=x+1) {System.out.println(mainchick[x].getVolume()) ;
     }
-}
+}}
 
 
 
