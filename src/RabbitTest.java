@@ -10,7 +10,7 @@ public class RabbitTest {
         pub[0] = new Rabbit();
         pub[1] = new Rabbit();
         pub[2] = new Rabbit();
-        pub[1].setAge(5);
+        pub[1].setAge(52);
         System.out.print(pub[1].getAge());
     }
 }

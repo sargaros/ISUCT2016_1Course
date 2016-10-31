@@ -20,7 +20,7 @@ public class Rabbit {
   private String weight;
 
     void run() {
-        System.out.println("I run");
+        System.out.println("I r2un");
     }
 
     public int getAge() {
