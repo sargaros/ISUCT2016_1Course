@@ -11,7 +11,10 @@ public class Phone {
 
     }
     void setNumber(){
-        System.out.println("Settiаng a numbers");
+        System.out.println("Setting a numbers");
 
     }
 }
+
+
+

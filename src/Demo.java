@@ -17,6 +17,11 @@ public class Demo {
 //    Phones[1] = 3;
 //    Phones[4] = 6;
     }
+
+
+    int sum(int a, int b) {
+        int c = a + b;
+        return c;
+    }
+
 }
-
-
