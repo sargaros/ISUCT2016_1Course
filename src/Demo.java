@@ -39,10 +39,15 @@ public class Demo {
     }
 
 
-    int summ(int a, int b) {
+    int summInt(int a, int b) {
         int c = a + b;
         return c;
+    }
 
+
+    long summLong(long a, long b) {
+        long c = a + b;
+        return c;
     }
 }
 
