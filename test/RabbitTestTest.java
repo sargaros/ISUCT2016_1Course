@@ -37,4 +37,4 @@ public class RabbitTestTest {
         int expResult = 1;
 //        assertEquals(expResult, result);
     }
-} 
+}  
