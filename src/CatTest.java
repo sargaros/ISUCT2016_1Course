@@ -21,6 +21,10 @@ public class CatTest {
 
         for (int x=0; x<3; x=x+1 ) {System.out.println(catMassive[x].getAge());}
     }
+int Summ(int x, int y){
+int c= x + y;
+    return c;
+}
 
 
 }
