@@ -1,6 +1,8 @@
 /**
  * Created by stud_6 on 31.10.16.
  */
+
+/*
 public class SimpleDotComTestDrive {
     public static void main (String[] args) {
         SimpleDotCom dot = new SimpleDotCom();
@@ -17,3 +19,4 @@ public class SimpleDotComTestDrive {
         System.out.println(testResult);
     }
 }
+*/

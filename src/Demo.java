@@ -32,14 +32,19 @@ public class Demo {
         cars[2].CheckOil();
         cars[2].CheckPressure();
 
-        for (int x=0; x<3; x=x+1) {
+
+    for (int x=0; x<3; x=x+1) {
             System.out.println(cars[x].getModel());
         }
     }
+
+
+    int summ(int a, int b) {
+        int c = a + b;
+        return c;
+
+    }
 }
-
-
-
 
 
 
