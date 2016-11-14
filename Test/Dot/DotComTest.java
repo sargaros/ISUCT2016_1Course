@@ -38,7 +38,7 @@ public class DotComTest {
         assertEquals(TestResult,result);
     }
     @Test
-    public void checkYouselfKill() throws Exception {
+    public void checkYouself1Kill() throws Exception {
         DotCom dot = new DotCom();
         ArrayList<String> locTest = new ArrayList<String>();
         locTest.add("2");
