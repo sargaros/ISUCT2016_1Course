@@ -1,7 +1,7 @@
 /**
  * Created by stud_6 on 17.10.16.
  */
-public class Airplane {
+public class Airplane extends FlyingMachines{
     private String model;
     private String brand;
     private int passengersCount;
@@ -19,28 +19,20 @@ public class Airplane {
 
     }
 
-    public String getModel() {
-        return model;
+
+    @Override
+    void speed() {
+
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    @Override
+    void acceleration() {
+
     }
 
-    public String getBrand() {
-        return brand;
-    }
+    @Override
+    void weight() {
 
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public int getPassengersCount() {
-        return passengersCount;
-    }
-
-    public void setPassengersCount(int passengersCount) {
-        this.passengersCount = passengersCount;
     }
 }
 
