@@ -1,4 +1,4 @@
-/**
+package PACMAN; /**
  * Created by jakeones on 22.05.2017.
  */
 
