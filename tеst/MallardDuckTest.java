@@ -1,9 +1,7 @@
 package tеst;
 
 import org.junit.*;
-import src.Duck;
-import src.MallardDuck;
-import src.ModelDuck;
+import src.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -42,6 +40,29 @@ public class MallardDuckTest {
         mallard.performFly();
         assertEquals("I'm flying!!\r\n", baos.toString());
     }
+
+        @Test
+        public void testMallardChangeFly() throws Exception {
+            Duck mallard = new MallardDuck();
+            mallard.performFly();
+            assertEquals("I'm flying!!\r\n", baos.toString());
+            baos.reset();
+            mallard.setFlyBehavior(new FlyNoWay());
+            mallard.performFly();
+            assertEquals("I can't fly\r\n", baos.toString());
+        }
+        @Test
+        public void testMallardChangeQuack() throws Exception {
+            Duck mallard = new MallardDuck();
+            mallard.performQuack();
+            assertEquals("Quack\r\n", baos.toString());
+            baos.reset();
+            mallard.setQuackBehavior(new MuteQuack());
+            mallard.performQuack();
+            assertEquals("<<< Silence >>>\r\n", baos.toString());
+
+        }
+
 
 
 }
